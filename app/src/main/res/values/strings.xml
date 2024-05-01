@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">CST338_Project2_eCommerceStore</string>
+    <string name="hello_jc">Hello JC!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="welcome">Welcome!</string>
+    <string name="purchase_items">Purchase Items</string>
+    <string name="view_purchases">View Purchases</string>
+    <string name="change_password">Change Password</string>
+    <string name="welcome_to_store">Welcome to store</string>
+    <string name="sign_in2">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="login">Login!</string>
+    <string name="logged_in">LOGGED IN</string>
+    <string name="preference_file_key">eCommPreferenceFileName</string>
+    <string name="preference_userId_key">eCommPreferenceUserIdKey</string>
 </resources>
