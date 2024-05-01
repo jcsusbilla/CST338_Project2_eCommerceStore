@@ -4,7 +4,7 @@ import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
-import com.example.project2ecommerce.database.entities.eCommerce;
+import com.example.cst338_project2_ecommercestore.database.entities.eCommerce;
 import java.util.List;
 
 //represents queries run in database
