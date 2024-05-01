@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.cst338_project2_ecommercestore'
+    namespace 'com.example.project2ecommerce'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.cst338_project2_ecommercestore"
+        applicationId "com.example.project2ecommerce"
         minSdk 34
         targetSdk 34
         versionCode 1
@@ -26,6 +26,10 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    buildFeatures{
+        viewBinding true
+    }
 }
 
 dependencies {
@@ -36,4 +40,9 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //ROOM DEPENDENCIES
+    def room_version = "2.6.1"
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
 }
